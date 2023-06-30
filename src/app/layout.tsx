@@ -1,5 +1,4 @@
 import "./globals.css";
-import { PlusJakartaSans } from "../styles/fonts";
 
 export default function RootLayout({
   children,
@@ -8,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={PlusJakartaSans.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
