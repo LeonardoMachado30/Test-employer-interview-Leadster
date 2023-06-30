@@ -3,7 +3,10 @@
 ## As decisões que você tomou
 
 Criei o projeto om o yarn, pois é a ferramenta mais rapida e comum para rodar a solução.
+
 Desabilitei o SWC do nextjs e deixei somente o babel, pois o style component não e renderizado no servidor, então tive que usar a declarativa "use client" para conseguir rodar a aplicação, tenho consicencia que perdi um pouco de otimização com isso, porem no processo adicionei um loading para que o usuario não fique vendo a renderização na tela.
+
+Desvido a falta de qualquer mecanismo de UX/UI, estipulando o padrão, alinhamento e espaçamento, como o figma, optei por recortar a imagem que me foi passada do layout, pois, além de estar em full hd, iria ser mais fiel e mais rápido do que criar do zero, então o local do site onde tem as descrições "Menos conversinha, mais conversão" é a imagem do teste, só que recortada.
 ## Como você organizou seu código
 
 A organização do projeto, se baseia no seguinte formato de arvore:
