@@ -70,9 +70,14 @@ const Card = styled.div`
   }
 `;
 
+interface IModalData {
+  title: string;
+  image: string;
+  link: string;
+}
 interface IOpenModal {
   open: boolean;
-  modalData?: null;
+  modalData?: null | IModalData;
 }
 
 export default function CardMovie(): JSX.Element {
