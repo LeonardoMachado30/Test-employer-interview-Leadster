@@ -29,47 +29,52 @@ FIX - ajuste de bug
 
 Para os padrões de arquivos:
 
--public
--+fonts
--src
--+app
--+components
--+styles
---+assets
---+css
--+utils
-
+```
+├───app
+├───components
+│   ├───CardMovie
+│   ├───ContentClientComponent
+│   ├───Filter
+│   ├───Footer
+│   ├───Information
+│   ├───Pagination
+│   └───Play
+├───styles
+│   ├───assets
+│   └───css
+└───utils
+```
 Para os padrões de componentes:
 
--Page
--+ContentClientComponent
---+Filter
----+Rounded
---+CardMovie
----+Play
-----+Header
-----+Footer
-----+ButtonsDonwload
---+Pagination
----+Pages
--+Footer
---+ItemsMap
+```
+├───CardMovie
+├───ContentClientComponent
+├───Filter
+├───Footer
+├───Information
+├───Pagination
+└───Play
+```
 
 ## As funcionalidades e instruções de como rodar o projeto
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages /criar-próximo-aplicativo).
 
-### Getting Started
+### Como rodar o projeto
 
-First, run the development server:
+Primeiro , instale as dependencias:
+```
+yarn install
+```
 
+Logo apos, execute o servidor:
+```
 yarn dev
+```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-### Learn More
+### Referencias e estudos
 
 To learn more about Next.js, take a look at the following resources:
 
