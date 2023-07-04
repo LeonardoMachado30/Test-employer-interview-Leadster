@@ -31,14 +31,14 @@ export default function Filter(): JSX.Element {
   ];
 
   return (
-    <div className="flex items-center justify-between mb-5">
-      <div className="flex items-center gap-4">
+    <div className="flex items-center justify-between mb-5 flex-wrap lg:flex-nowrap px-4 lg:px-0">
+      <div className="flex items-center gap-2 md:gap-4 flex-wrap lg:flex-nowrap ">
         {roundedList?.map((title) => (
           <Rounded key={title} title={title} selectItem={selectItem} />
         ))}
       </div>
 
-      <Ordenation className="flex gap-2 items-center">
+      <Ordenation className="flex gap-2 items-center justify-between   w-full lg:justify-start lg:w-auto">
         <p className="font-bold text-sm">Ordenar por:</p>
 
         <select>
