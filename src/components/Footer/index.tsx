@@ -3,6 +3,7 @@ import logo from "styles/assets/logo.png";
 import facebook from "styles/assets/facebook.svg";
 import instagram from "styles/assets/instagram.svg";
 import linkedin from "styles/assets/linkedin.svg";
+
 const objFooter = [
   {
     itemArr: ["Links Principais", "Home", "Ferramenta", "Preços", "Contato"],
