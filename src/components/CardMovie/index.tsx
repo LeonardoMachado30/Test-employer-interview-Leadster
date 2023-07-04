@@ -91,7 +91,7 @@ export default function CardMovie(): JSX.Element {
 
   return (
     <>
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-7 border-y-2 border-gray-300 py-16 mb-8">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-7 border-y-2 border-gray-300 py-16 mb-8 px-2 lg:px-0">
         {moveList?.movie?.map((data, index) => {
           const img: string = !data?.image ? thumbnail.src : "";
 
