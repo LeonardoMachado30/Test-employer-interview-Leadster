@@ -6,7 +6,6 @@ Criei o projeto com o yarn, pois é a ferramenta mais rapida e comum para rodar 
 
 O Projeto segue os padrões estabelecidos pelo teste, utilizando NextJs na versão 13, juntamente com style components, seguindo padrões de projeto como clean code, tipagem forte e organização de componentes.
 
-
 Desabilitei o SWC do nextjs e deixei somente o babel, pois o style component não e renderizado no servidor, então tive que usar a declarativa "use client" em alguns components.
 
 Devido a falta de qualquer mecanismo de UX/UI, estipulando o padrão, alinhamento e espaçamento, como o figma, optei por recortar a imagem que me foi passada do layout, pois, além de estar em full hd, iria ser mais fiel e mais rápido do que criar do zero, então o local do site onde tem as descrições "Menos conversinha, mais conversão" é a imagem do teste, só que recortada.
@@ -25,11 +24,38 @@ Para o git, adotei as nomenclaturas:
 
 ADD - Adicionar
 CHANGE - Alteração do código
-UPDATE - Atualização do código
 REMOVE - Removoção de algum código
 FIX - ajuste de bug
 
-## As funcionalidades e instruções de como rodar seu projeto
+Para os padrões de arquivos:
+
+-public
+-+fonts
+-src
+-+app
+-+components
+-+styles
+--+assets
+--+css
+-+utils
+
+Para os padrões de componentes:
+
+-Page
+-+ContentClientComponent
+--+Filter
+---+Rounded
+--+CardMovie
+---+Play
+----+Header
+----+Footer
+----+ButtonsDonwload
+--+Pagination
+---+Pages
+-+Footer
+--+ItemsMap
+
+## As funcionalidades e instruções de como rodar o projeto
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -37,13 +63,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
