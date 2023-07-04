@@ -1,8 +1,8 @@
 import Image from "next/image";
 import logo from "styles/assets/logo.png";
-import facebook from "styles/assets/facebook.svg";
-import instagram from "styles/assets/instagram.svg";
-import linkedin from "styles/assets/linkedin.svg";
+import facebook from "styles/assets/Facebook.svg";
+import instagram from "styles/assets/Instagram.svg";
+import linkedin from "styles/assets/Linkedin.svg";
 
 const objFooter = [
   {
