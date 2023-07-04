@@ -2,11 +2,21 @@
 
 ## As decisões que você tomou
 
-Criei o projeto om o yarn, pois é a ferramenta mais rapida e comum para rodar a solução.
+Criei o projeto com o yarn, pois é a ferramenta mais rapida e comum para rodar a solução.
 
-Desabilitei o SWC do nextjs e deixei somente o babel, pois o style component não e renderizado no servidor, então tive que usar a declarativa "use client" para conseguir rodar a aplicação, tenho consicencia que perdi um pouco de otimização com isso, porem no processo adicionei um loading para que o usuario não fique vendo a renderização na tela.
+O Projeto segue os padrões estabelecidos pelo teste, utilizando NextJs na versão 13, juntamente com style components, seguindo padrões de projeto como clean code, tipagem forte e organização de componentes.
 
-Desvido a falta de qualquer mecanismo de UX/UI, estipulando o padrão, alinhamento e espaçamento, como o figma, optei por recortar a imagem que me foi passada do layout, pois, além de estar em full hd, iria ser mais fiel e mais rápido do que criar do zero, então o local do site onde tem as descrições "Menos conversinha, mais conversão" é a imagem do teste, só que recortada.
+
+Desabilitei o SWC do nextjs e deixei somente o babel, pois o style component não e renderizado no servidor, então tive que usar a declarativa "use client" em alguns components.
+
+Devido a falta de qualquer mecanismo de UX/UI, estipulando o padrão, alinhamento e espaçamento, como o figma, optei por recortar a imagem que me foi passada do layout, pois, além de estar em full hd, iria ser mais fiel e mais rápido do que criar do zero, então o local do site onde tem as descrições "Menos conversinha, mais conversão" é a imagem do teste, só que recortada.
+
+Devido a algumas imagens não estarem no projeto, criei manualmente atravez do gimp e do figma, de modo a otimizar a aplicação e tornar as imagens de melhor manipulação.
+
+Utilizei mais do tailwind css para implementar o estilo, pois o style components em excesso deixa o projeto "sujo" no meu ponto de vista.
+
+Ao decorrer do desenvolvimento, levei cerca de 4 dias e 16 horas para desenvolver a tela, com interatividade e animações, de modo que respeitasse as regras estipuladas pelo teste
+
 ## Como você organizou seu código
 
 A organização do projeto, se baseia no seguinte formato de arvore:
