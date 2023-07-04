@@ -17,17 +17,18 @@ export default function ContentClientComponent(): JSX.Element {
       </section>
 
       <section
-        className="flex items-center justify-center gap-10 w-full h-auto py-8"
+        className="flex items-center justify-center gap-10 w-full h-auto py-8 flex-wrap lg:flex-nowrap lg:px-0 px-4"
         style={{
           backgroundImage: `url(${backgroundSky.src})`,
           backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
         }}
       >
         <Image
           src={comparativo_img_CTA}
           width={600}
           height={600}
-          style={{ width: "40%" }}
+          className="lg:w-1/3"
           alt="comparativo"
         />
 
