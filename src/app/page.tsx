@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
         <header style={{ padding: "44px" }}>
           <Image src={logo} alt="logo" width={200} height={440} />
         </header>
-
+        
         <Image
           src={backgroundTitle}
           alt="background"
