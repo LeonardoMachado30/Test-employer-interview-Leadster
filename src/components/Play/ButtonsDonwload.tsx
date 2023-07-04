@@ -13,7 +13,7 @@ export default function ButtonsDownload({
 }: IProp): JSX.Element {
   return (
     <div className={`flex mt-4 gap-2 ${className}`}>
-      <button className=" rounded flex" style={{ backgroundColor: "#c2f4ea" }}>
+      <button className="rounded flex" style={{ backgroundColor: "#c2f4ea" }}>
         <div
           className="py-1 px-1 h-full rounded-l-md flex justify-center items-center"
           style={{ backgroundColor: "#9fefdf" }}

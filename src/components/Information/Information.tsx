@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import styled from "styled-components";
 import rating from "styles/assets/rating.webp";
@@ -11,15 +10,17 @@ const Button = styled.button`
   border-radius: 200px;
   color: var(--white_color);
   font-weight: 600;
-  font-sizer: 24px;
+  font-size: 24px;
 `;
 
 export default function Information(): JSX.Element {
   return (
     <div className="flex flex-col justify-center gap-2">
-      <p className="font-semibold text-4xl">Pronto para triplicar sua</p>
-      <p className="font-bold text-4xl">Geração de Leads?</p>
-      <p className="font-normal text-2xl">
+      <p className="font-semibold text-2x1 lg:text-4xl">
+        Pronto para triplicar sua
+      </p>
+      <p className="font-bold text-2x1 lg:text-4xl">Geração de Leads?</p>
+      <p className="font-normal text-x1 lg:text-4xl">
         Criação e ativação em <strong>4 minutos</strong>.
       </p>
 

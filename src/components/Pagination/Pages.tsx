@@ -7,7 +7,7 @@ const PageList = styled.ul`
     padding: 4px 12px;
     border-radius: 4px;
     border: 1px solid transparent;
-    // font-weight: 500;
+    font-weight: 500;
 
     // &:hover {
     //   border: 1px solid var(--primary_color);
@@ -27,13 +27,13 @@ export default function Pages({ selectItem }: IProp): JSX.Element {
   return (
     <PageList className="flex items-center">
       {pagesArray.map((page) => {
-        const classNameActive = "active-border font-bold";
+        const classNameActive = "active-border";
         const classNameDefault: string = page === 3 ? classNameActive : "";
         return (
           <li
             key={page}
             onClick={(event) => selectItem(event, classNameActive)}
-            className={`${classNameDefault}`}
+            className={classNameDefault}
           >
             {page}
           </li>
